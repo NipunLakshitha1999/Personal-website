@@ -1,0 +1,25 @@
+#div{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: water 2s infinite;
+}
+@keyframes water {
+    from{
+        border: 1px solid darkblue;
+        width: 10px;
+        height: 10px;
+    }
+    to{
+        border: 5px solid darkblue;
+        width: 350px;
+        height: 350px;
+        opacity: 0;
+    }
+}

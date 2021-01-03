@@ -1,0 +1,457 @@
+@media all and (max-width: 768px) and (min-width:426px ){
+    body>section>img {
+        height: 4570px;
+    }
+    #loader{
+        width: 350px;
+        height: 350px;
+    }
+    header>div {
+        height: 64px;
+    }
+    nav > ul {
+        width: 446px;
+    }
+    nav > ul li>a {
+        font-size: 14px;
+        padding: 0px;
+    }
+    #sec1 {
+        width: 100%;
+        height: 385px;
+        top: 50px;
+    }
+    #div1 {
+        top: 108px;
+        left: 30px;
+    }
+    #hello {
+        font-size: 20px;
+    }
+    #inl {
+        font-size: 38px;
+    }
+    #sf {
+        font-size: 20px;
+    }
+    #sec1-sec1>img {
+        right: -9px;
+        width: 300px;
+        top: 80px;
+    }
+    #div2 {
+        width: 700px;
+        height: 39px;
+        top: 310px;
+        left: 30px;
+    }
+    #div2-div1 {
+        width: 110px;
+        height: 45px;
+        border-radius: 15px;
+    }
+    #hire {
+        top: 8px;
+        bottom: 0;
+        left: 30px;
+        right: 0;
+        font-size: 16px;
+    }
+    #div2-div2 {
+        width: 110px;
+        height: 45px;
+        border-radius: 15px;
+        left: 150px;
+        border: 2px solid blueviolet;
+    }
+    #cv {
+        top: 7px;
+        bottom: 0;
+        left: 30px;
+        right: 0;
+        font-size: 16px;
+    }
+    #sec2 {
+        width: 100%;
+        height: 580px;
+        top: 490px;
+    }
+    #sec2-sec1>img {
+        top: 20px;
+        width: 450px;
+        left: 0px;
+    }
+    #sec2-div1 {
+        height: 50px;
+        top: 40px;
+        left: 450px;
+        width: 300px;
+    }
+    #let {
+        font-size: 35px;
+    }
+    #iabout {
+        font-size: 35px;
+        margin-top: 1px;
+    }
+    #myself {
+        font-size: 35px;
+        margin-top: 1px;
+    }
+    #sec2-div2 {
+        top: 290px;
+        left: 90px;
+        width: 600px;
+        height: 80px;
+    }
+    #aboutp {
+        font-size: 25px;
+    }
+    #sec2-div3 {
+        top: 490px;
+        left: 290px;
+        width: 150px;
+        height: 50px;
+        border-radius: 53px;
+    }
+    #DcV {
+        font-size: 15px;
+        top: 0px;
+        left: 25px;
+    }
+    #sec3 {
+        width: 100%;
+        height: 975px;
+        top: 1100px;
+    }
+    #sec3-div1 {
+        top: 60px;
+        left: 60px;
+        width: 300px;
+        height: 40px;
+    }
+    #qWork {
+        font-size: 35px;
+    }
+    #rDoneWork {
+        font-size: 35px;
+        margin-top: 2px;
+    }
+    #sec3-sec1 {
+        top: 284px;
+        left: 59px;
+        width: 660px;
+        height: 347px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+    #sec3-sec1>div {
+        width: 170px;
+        height: 120px;
+    }
+    #sec3-sec1>div>h1 {
+        font-size: 15px;
+    }
+    #p1 {
+        top: 14%;
+        bottom: 0;
+        left: 9%;
+        right: 0;
+    }
+    #p2 {
+        top: 14%;
+        bottom: 0;
+        left: 43%;
+    }
+    #p3 {
+        top: 14%;
+        bottom: 0;
+        left: 76%;
+        right: 0;
+    }
+    #p4 {
+        top: 63%;
+        bottom: 0;
+        left: 8%;
+    }
+    #p5 {
+        top: 63%;
+        bottom: 0;
+        left: 42%;
+    }
+    #p6 {
+        top: 65%;
+        bottom: 0;
+        left: 76%;
+    }
+    #sec3-div2 {
+        left: 145px;
+        width: 430px;
+        height: 270px;
+        top: 639px;
+    }
+    #sec3-div2-div {
+        width: 180px;
+        height: 100px;
+        top: 18px;
+        left: 233px;
+    }
+    #ysWorking {
+        font-size: 20px;
+    }
+    #n10 {
+        top: -46px;
+        left: 9px;
+        font-size: 150px;
+    }
+    #sec3-div3>img {
+        top: 145px;
+        left: 20px;
+        width: 80px;
+    }
+    #no {
+        font-size: 40px;
+        top: 150px;
+        left: 100px;
+    }
+    #sec4 {
+        width: 100%;
+        height: 765px;
+        top: 2180px;
+        left: 60px;
+    }
+    #sec4-div1 {
+        top: 0px;
+        left: 15px;
+        width: 1570px;
+        height: 588px;
+    }
+    #sOffers {
+        font-size: 35px;
+    }
+    #sec4-sec1 {
+        width: 90%;
+        height: 650px;
+        top: 140px;
+        left: 15px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #sec4-sec1>div {
+        width: 230px;
+        height: 250px;
+    }
+    #img1 {
+        width: 85px;
+        top: 20px;
+        left: 70px;
+    }
+    #h1 {
+        font-size: 16px;
+        top: 165px;
+        left: 30px;
+    }
+    #img2 {
+        width: 85px;
+        top: 20px;
+        left: 70px;
+    }
+    #h2 {
+        font-size: 16px;
+        top: 165px;
+        left: 30px;
+    }
+    #img3 {
+        width: 85px;
+        top: 20px;
+        left: 70px;
+    }
+    #h3 {
+        font-size: 15px;
+        top: 165px;
+        left: 18px;
+    }
+    #img4 {
+        width: 85px;
+        left: 70px;
+        top: 20px;
+    }
+    #h4 {
+        top: 165px;
+        font-size: 13px;
+        left: 23px;
+    }
+    #sec5 {
+        top: 3019px;
+        width: 100%;
+        height: 740px;
+    }
+    #sec5-div1 {
+        width: 426px;
+        height: 40px;
+        left: 60px;
+    }
+    #sec5-div1-h1 {
+        font-size: 35px;
+    }
+    #sec5-div1-h2 {
+        font-size: 35px;
+        margin-top: 4px;
+    }
+    #sec5-sec1 {
+        height: 480px;
+        top: 150px;
+        left: 60px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(1,10fr);
+    }
+    #sec5-sec1-div1 {
+        width: 288px;
+        height: 182px;
+    }
+    #sec5-sec1-div1-div1 {
+        width: 280px;
+        height: 210px;
+    }
+    #div1-img1 {
+        width: 280px;
+    }
+    #div1-h1 {
+        font-size: 25px;
+        left: 60px;
+        top: 154px;
+    }
+    #sec5-sec1-div1-div2 {
+        width: 280px;
+        height: 210px;
+    }
+    #div1-img2 {
+        width: 280px;
+    }
+    #div1-h2 {
+        font-size: 25px;
+        left: 25px;
+        top: 387px;
+    }
+    #sec5-sec2 {
+        position: relative;
+        position: relative;
+        top: -330px;
+        left: 410px;
+    }
+    #sec5-sec1-div1-div3 {
+        width: 280px;
+        height: 210px;
+    }
+    #div1-img3 {
+        width: 280px;
+    }
+    #div1-h3 {
+        font-size: 25px;
+        left: 55px;
+        top: 145px;
+    }
+    #sec5-sec3 {
+        position: relative;
+        top: -300px;
+        left: 410px;
+    }
+    #sec5-sec1-div1-div4 {
+        width: 280px;
+        height: 210px;
+    }
+    #div1-img4 {
+        width: 280px;
+    }
+    #div1-h4 {
+        font-size: 25px;
+        left: 45px;
+        top: 145px;
+    }
+    #sec6 {
+        width: 100%;
+        position: absolute;
+        top: 3860px;
+        left: 60px;
+    }
+    #sec6-sec1 {
+        width: 620px;
+        height: 300px;
+        top: 10px;
+        left: 20px;
+    }
+    #sec6-sec1-div1-h1 {
+        top: 100px;
+        font-size: 25px;
+        left: 130px;
+    }
+    #sec6-sec1-div2 {
+        width: 80px;
+        height: 35px;
+        top: 211px;
+        left: 475px;
+        border-radius: 50px;
+        box-shadow: 1px 4px;
+    }
+    #sec6-sec1-div2-h1 {
+        font-size: 8px;
+        top: 2px;
+        left: 21px;
+    }
+    #textField {
+        width: 255px;
+        height: 25px;
+        border: 2px solid white;
+        top: 220px;
+        left: 128px;
+        font-size: 10px;
+    }
+    #imgProfile:hover{
+        width: 170px;
+    }
+    #sec6-sec1-div3 {
+        width: 170px;
+        top: -110px;
+        left: 230px;
+        height: 170px;
+    }
+    #imgProfile {
+        width: 130px;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    #fSection {
+        top: 4300px;
+        height: 230px;
+    }
+    #fSection-div1 {
+        top: 2px;
+        right: 0;
+        left: 370px;
+        width: 601px;
+        height: 100px;
+    }
+    #nipun {
+        font-size: 35px;
+    }
+    #follow {
+        margin-top: 15px;
+        margin-left: 4px;
+        font-size: 35px;
+    }
+    #Crr {
+        top: 193px;
+        font-size: 14px;
+        left: -74px;
+    }
+    #fSection-div2 {
+        top: 128px;
+        left: 100px;
+        width: 438px;
+        height: 40px;
+    }
+    #fSection-div2>div>img {
+        width: 30px;
+    }
+}

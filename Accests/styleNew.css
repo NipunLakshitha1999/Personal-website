@@ -1,0 +1,504 @@
+@media all  and (max-width: 320px) {
+    /*nav > ul {*/
+    /*    flex-direction: column;*/
+    /*    !* border-bottom: 1px solid #fff; *!*/
+    /*}*/
+    header>div {
+        height: 45px;
+    }
+    header>div>nav{
+        position: absolute;
+        width: 300px;
+    }
+    nav > ul {
+        flex-direction: column;
+        list-style-type: none;
+        width: 110px;
+        height: 180px;
+    }
+    li.hamburger {
+        display: inline-block;
+        margin-left: auto;
+        width: 100px;
+        position: absolute;
+        left: -58px;
+    }
+    li:not(.hamburger) {
+        display: none;
+    }
+    nav > ul li:not(.hamburger):hover {
+        color: #e65100;
+        cursor: pointer;
+        transform: translateX(10px);
+    }
+    li.hamburger > .button {
+        margin-right: 42px;
+        width: 10px;
+        height: 17px;
+    }
+    .button div {
+        display: block;
+        height: 1px;
+        width: 30px;
+        background: blueviolet;
+        transition: .3s all;
+    }
+    nav > ul li>a {
+        display: inline-block;
+        font-size: 10px;
+        color: blueviolet;
+        padding: 10px;
+
+    }
+    body>section>img {
+        width: 100%;
+        overflow: hidden;
+        height: 2950px;
+    }
+    #sec1 {
+        width: 100%;
+        height: 160px;
+        top: 95px;
+    }
+    #div1 {
+        top: -12px;
+        left: 15px;
+    }
+    #hello {
+        font-size: 10px;
+    }
+    #inl {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    #sf {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #sec1-sec1>img {
+        right: 0px;
+        width: 134px;
+        top: -11px;
+    }
+    #div2 {
+        width: 120px;
+        height: 27px;
+        top: 113px;
+        left: 15px;
+    }
+    #div2-div1 {
+        width: 45px;
+        height: 21px;
+    }
+    #hire {
+        top: 9px;
+        left: 13px;
+        font-size: 6px;
+    }
+    #div2-div2 {
+        width: 40px;
+        height: 21px;
+        left: 69px;
+        border: 1px solid blueviolet;
+    }
+    #cv {
+        top: 9px;
+        left: 12px;
+        right: 0;
+        font-size: 6px;
+    }
+    #sec2 {
+        width: 100%;
+        height: 210px;
+        position: absolute;
+        top: 258px;
+    }
+    #sec2-sec1>img {
+        top: 40px;
+        width: 160px;
+        left: 15px;
+    }
+    #sec2-div1 {
+        height: 70px;
+        top: 42px;
+        left: 180px;
+        width: 146px;
+    }
+    #let {
+        font-size: 10px;
+    }
+    #iabout {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    #myself {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    #sec2-div2 {
+        top: 85px;
+        left: 180px;
+        width: 70px;
+        height: 48px;
+    }
+    #aboutp {
+        font-size: 5px;
+    }
+    #sec2-div3 {
+        top: 135px;
+        left: 180px;
+        width: 45px;
+        height: 21px;
+        border: 2px solid #502aea;
+        border-radius: 67px;
+    }
+    #DcV {
+        font-size: 5px;
+        top: 5px;
+        left: 8px;
+    }
+    #sec3 {
+        width: 100%;
+        height: 485px;
+        top: 480px;
+    }
+    #sec3-div1 {
+        top: 0px;
+        left: 15px;
+        width: 170px;
+        height: 35px;
+    }
+    #qWork {
+        font-size: 13px;
+    }
+    #rDoneWork {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    #sec3-sec1 {
+        top: 53px;
+        left: 15px;
+        width: 300px;
+        height: 200px;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #sec3-sec1>div {
+        border: 1px solid white;
+        width: 110px;
+        height: 50px;
+    }
+    #sec3-sec1>div>h1 {
+        font-size: 15px;
+    }
+    #p1 {
+        top: 8%;
+        bottom: 0;
+        left: 10%;
+        right: 0;
+    }
+    #p2 {
+        top: 8%;
+        left: 60%;
+        right: 0;
+    }
+    #p3 {
+        top: 41%;
+        left: 10%;
+        right: 0;
+    }
+    #p4 {
+        top: 41%;
+        left: 60%;
+        right: 0;
+    }
+    #p5 {
+        top: 75%;
+        left: 10%;
+        right: 0;
+    }
+    #p6 {
+        top: 74%;
+        left: 60%;
+        right: 0;
+    }
+    #sec3-div2 {
+        width: 294px;
+        height: 180px;
+        top: 265px;
+        left: 15px;
+    }
+    #sec3-div2-div {
+        width: 142px;
+        height: 100px;
+        top: 18px;
+        left: 149px;
+    }
+    #ysWorking {
+        font-size: 12px;
+    }
+    #n10 {
+        top: -15px;
+        left: 12px;
+        font-size: 113px;
+    }
+    #sec3-div3>img {
+        top: 97px;
+        left: 10px;
+        width: 60px;
+    }
+    #no {
+        font-size: 20px;
+        top: 100px;
+        left: 80px;
+    }
+    #sec4 {
+        width: 100%;
+        height: 380px;
+        top: 1000px;
+    }
+    #sec4-div1 {
+        top: 0px;
+        left: 15px;
+        width: 1570px;
+        height: 588px;
+    }
+    #sOffers {
+        font-size: 13px;
+    }
+    #sec4-sec1 {
+        width: 90%;
+        height: 320px;
+        top: 37px;
+        left: 15px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #img1 {
+        width: 65px;
+        top: 5px;
+        left: 20px;
+    }
+    #h1 {
+        font-size: 13px;
+        top: 75px;
+        left: 10px;
+    }
+    #sec4-sec1>div {
+        width: 113px;
+        height: 148px;
+    }
+    #img2 {
+        width: 65px;
+        top: 5px;
+        left: 20px;
+    }
+    #h2 {
+        font-size: 13px;
+        top: 75px;
+        left: 10px;
+    }
+    #img3 {
+        width: 65px;
+        top: 5px;
+        left: 20px;
+    }
+    #h3 {
+        font-size: 13px;
+        top: 75px;
+        left: 10px;
+    }
+    #img4 {
+        width: 65px;
+        left: 20px;
+        top: 5px;
+    }
+    #h4 {
+        top: 75px;
+        font-size: 13px;
+        left: 10px;
+    }
+    #sec5 {
+        top: 1421px;
+        width: 100%;
+        height: 1210px;
+    }
+    #sec5-div1 {
+        width: 190px;
+        height: 100px;
+        left: 15px;
+    }
+    #sec5-div1-h1 {
+        font-size: 13px;
+    }
+    #sec5-div1-h2 {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    #sec5-sec1 {
+        height: 450px;
+        /* padding: 11px; */
+        top: 10px;
+        left: 25px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(1,10fr);
+    }
+    #sec5-sec1-div1 {
+        width: 254px;
+        height: 245px;
+    }
+    #sec5-sec1-div1-div1 {
+        width: 250px;
+        height: 200px;
+        background: white;
+    }
+    #div1-img1 {
+        width: 250px;
+    }
+    #div1-h1 {
+        font-size: 18px;
+        left: 65px;
+        top: 150px;
+    }
+    #sec5-sec1-div1-div2 {
+        width: 250px;
+        height: 200px;
+    }
+    #div1-img2 {
+        width: 250px;
+    }
+    #div1-h2 {
+        font-size: 18px;
+        left: 30px;
+        top: 380px;
+    }
+    #sec5-sec2 {
+        top: 100px;
+        left: 25px;
+    }
+    #sec5-sec1-div1-div3 {
+        width: 250px;
+        height: 200px;
+    }
+    #div1-img3 {
+        width: 250px;
+    }
+    #div1-h3 {
+        font-size: 18px;
+        left: 60px;
+        top: 135px;
+    }
+    #sec5-sec3 {
+        top: 200px;
+        left: 25px;
+    }
+    #sec5-sec1-div1-div4 {
+        width: 250px;
+        height: 200px;
+    }
+    #div1-img4 {
+        width: 250px;
+    }
+    #div1-h4 {
+        font-size: 18px;
+        left: 60px;
+        top: 130px;
+    }
+    #sec6 {
+        top: 2669px;
+    }
+    #sec6-sec1 {
+        width: 270px;
+        height: 150px;
+        top: 60px;
+        left: 25px;
+    }
+    #sec6-sec1-div1-h1 {
+        top: 65px;
+        font-size: 9px;
+        left: 65px;
+    }
+    #sec6-sec1-div2 {
+        width: 50px;
+        height: 14px;
+        top: 97px;
+        left: 188px;
+        border-radius: 10px;
+        box-shadow: 1px 4px;
+    }
+    #sec6-sec1-div2-h1 {
+        font-size: 5px;
+        top: -7px;
+        left: 11px;
+    }
+    #textField {
+        width: 100px;
+        height: 13px;
+        border: 1px solid white;
+        top: 97px;
+        left: 56px;
+        font-size: 35px;
+    }
+    ::placeholder{
+        font-size: 10px;
+        top: 98px;
+        left: 62px;
+    }
+    #sec6-sec1-div3 {
+        width: 100px;
+        top: -50px;
+        left: 90px;
+        height: 100px;
+        position: absolute;
+        background: white;
+    }
+    #imgProfile {
+        width: 90px;
+        position: absolute;
+        /* top: 85px; */
+        /* left: 100px; */
+    }
+    #imgProfile:hover {
+        width: 100px;
+    }
+    #fSection {
+        width: 100%;
+        top: 3107px;
+        height: 200px;
+    }
+    #fSection-div1 {
+        top: 10px;
+        right: 0;
+        left: 130px;
+        width: 320px;
+        height: 64px;
+    }
+    #nipun {
+        font-size: 16px;
+    }
+    #follow {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 10px;
+        font-family: 'Anton', sans-serif;
+    }
+    #Crr {
+        top: 155px;
+        font-size: 10px;
+        left: -50px;
+        right: 0;
+    }
+    #fSection-div2 {
+        top: 70px;
+        right: 0;
+        left: 0;
+        width: 70px;
+        height: 0px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+    #fSection-div2>div>img {
+        width: 20px;
+    }
+
+}

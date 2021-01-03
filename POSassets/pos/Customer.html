@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styleCSS.css">
+    <link rel="stylesheet" href="POSassets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div id="customerMainDiv">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="posSystem.html"  target="_blank">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html"  target="_blank">Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Customer.html"  target="_blank">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html"  target="_blank">Product</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div id="customerDiv1">
+        <h1 id="customerh1">Customer</h1>
+    </div>
+    <div id="customerDiv2">
+        <form>
+            <div class="form-group">
+                <label for="id">Customer ID</label>
+                <input type="id" class="form-control" id="id">
+            </div>
+            <div class="form-group">
+                <label for="name">Customer Name</label>
+                <input type="name" class="form-control" id="name"  placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label for="address">Customer Address</label>
+                <input type="address" class="form-control" id="address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <label for="contact">Customer Contact</label>
+                <input type="contact" class="form-control" id="contact" placeholder="Contact">
+            </div>
+        </form>
+    </div>
+    <div id="customerDiv3">
+        <button type="button" id="customerbtn1">Save</button>
+        <button type="button" id="customerbtn2">Delete</button>
+        <button type="button" id="customerbtn3">Cancel</button>
+    </div>
+    </div>
+    <div id="customerDiv4" class="overflow-auto">
+        <table class="table" id="cusTable">
+            <thead class="black white-text">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">ADDRESS</th>
+                <th scope="col">CONTACT</th>
+            </tr>
+            </thead>
+            <tbody id="cusTbBody">
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+<script src="POSassets/jquery-3.5.1.min.js"></script>
+<script src="POSassets/js/bootstrap.min.js"></script>
+<script>
+    $('#customerbtn1').click(function(){
+        var id=$('#id').val();
+        var name=$('#name').val();
+        var address=$('#address').val();
+        var contact=$('#contact').val();
+
+        $('#cusTable').append('<tr><th scope="row">'+id+'</th><td>'+name+'</td><td>'+address+'</td><td>'+contact+'</td></tr>');
+        alert(id+name+address+contact);
+
+        $('#cusTbBody tr').click(function(){
+
+            var id=$($(this).children().get(0)).text();
+            var name=$($(this).children().get(1)).text();
+            var address=$($(this).children().get(2)).text();
+            var contact=$($(this).children().get(3)).text();
+
+            console.log(id,name,address,contact);
+        });
+    });
+    $
+</script>
+</body>
+</html>

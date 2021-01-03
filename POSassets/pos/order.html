@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="styleCSS.css">
+    <link rel="stylesheet" href="POSassets/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="orderMainDiv">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="posSystem.html"  target="_blank">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html"  target="_blank">Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Customer.html"  target="_blank">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html"  target="_blank">Product</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="orderDiv1">
+        <div id="orderDiv1-div1">
+            <div id="orderDiv1-div1-div1" class="overflow-auto">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Unit Price</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>
+                            <div class="value">
+                                <input  type="text" placeholder="QTY">
+                            </div>
+                        </td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            <div class="value">
+                                <input  type="text" placeholder="QTY">
+                            </div>
+
+                        </td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">
+                            <div class="value">
+                                <input  type="text" placeholder="QTY">
+                            </div>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="orderDiv1-div1-div2">
+                <div id="orderDiv1-div1-div2-div1">
+                    <div>
+                        <h1>Last Price</h1>
+                    </div>
+                    <div>
+                        <h1>Discount</h1>
+                    </div>
+                    <div>
+                        <h1>Cash</h1>
+                    </div>
+                </div>
+                <div id="orderDiv1-div1-div2-div2">
+                    <div>
+                        <h1>00.00</h1>
+                    </div>
+                    <div>
+                        <h1>00%</h1>
+                    </div>
+                    <div>
+                        <h1>00.00</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="orderDiv1-div2" class="overflow-auto">
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+                <div>
+                    <img src="POSassets/Image/kfc.jpg">
+                </div>
+            </div>
+        <div id="orderDiv1-div3">
+            <button type="button" id="orderbtn1">Cash</button>
+            <button type="button"  id="orderbtn2">Delete</button>
+            <button type="button" id="orderbtn3">Cancel</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="POSassets/jquery-3.5.1.min.js"></script>
+<script src="POSassets/js/bootstrap.min.js"></script>
+</body>
+</html>
